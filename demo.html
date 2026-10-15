@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Demander une démo ZMOOV</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Une démo de 45 minutes sur vos lignes, en français ou en anglais.">
+<link rel="alternate" hreflang="en" href="en/demo.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&amp;family=Geist+Mono:wght@400..600&amp;display=swap">
+<link rel="stylesheet" href="assets/zmoov.css">
+</head>
+<body class="">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="sugg" id="lang-sugg" hidden><div class="wrap"><span>This site is also available in English.</span><a href="en/demo.html" data-sugg-go hreflang="en">Switch to English</a><button type="button" data-sugg-stay>Stay in French</button></div></div>
+<div class="hdr-wrap">
+<header class="hdr">
+<a class="logo" href="index.html" aria-label="ZMOOV, accueil"><svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="9" fill="#C9FF5F"/><path d="M8.5 9.5h13l-13 11h13" fill="none" stroke="#0B0D0F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.2 15h5.6" stroke="#0B0D0F" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.6 2.4"/></svg><span>ZMOOV</span></a>
+<nav class="nav" aria-label="Navigation principale"><a href="plateforme.html">Plateforme</a><a href="solutions.html">Solutions</a><a href="tarifs.html">Tarifs</a><a href="ressources.html">Ressources</a><a href="entreprise.html">Entreprise</a></nav>
+<div class="hdr-actions"><div class="lang" role="group" aria-label="Langue"><a href="en/demo.html" hreflang="en" lang="en">EN</a><a href="demo.html" hreflang="fr" lang="fr" aria-current="true">FR</a></div><a class="btn btn--lime" href="demo.html" aria-current="page">Demander une démo</a>
+<button class="burger" type="button" data-menu-open aria-expanded="false" aria-controls="mmenu" aria-label="Ouvrir le menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+</header>
+</div>
+<main id="contenu" tabindex="-1" class="demo"><div class="wrap demo-grid">
+<div class="intro"><p class="eyebrow">Demander une démo</p><h1 class="display display--md">Découvrez ZMOOV sur vos propres lignes.</h1>
+<p class="lede muted">Dites-nous qui vous êtes : nous préparons une démo avec vos lignes et la taille de votre flotte.</p>
+<ul class="incl"><li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></i>Une démo de 45 minutes</li><li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></i>Sur vos lignes, avec votre flotte</li><li><i aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></i>En français ou en anglais</li></ul></div>
+<div class="formcol"><div class="fcard light">
+<form class="form" id="demo-form" novalidate aria-labelledby="f-title">
+<h2 id="f-title" class="h4">Vos coordonnées</h2>
+<div class="errbox" id="errbox" role="alert" tabindex="-1" hidden><strong></strong><ul></ul></div>
+<p class="hint">Trois champs suffisent. Les champs marqués * sont obligatoires.</p>
+<div class="field"><label for="f-name">Nom complet <span class="req" aria-hidden="true">*</span></label><input class="input" id="f-name" name="name" autocomplete="name" required aria-describedby="f-name-e"><span class="err" id="f-name-e" hidden></span></div>
+<div class="grid2"><div class="field"><label for="f-phone">Téléphone (WhatsApp de préférence) <span class="req" aria-hidden="true">*</span></label><input class="input" id="f-phone" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="+237 6XX XX XX XX" required aria-describedby="f-phone-e"><span class="err" id="f-phone-e" hidden></span></div>
+<div class="field"><label for="f-company">Entreprise de transport <span class="req" aria-hidden="true">*</span></label><input class="input" id="f-company" name="organization" autocomplete="organization" required aria-describedby="f-company-e"><span class="err" id="f-company-e" hidden></span></div></div>
+<p class="sep">Pour mieux préparer la démo</p>
+<fieldset class="radios"><legend>Comment préférez-vous être recontacté ? <span class="opt">(facultatif)</span></legend><label class="radio"><input type="radio" name="canal" value="call" data-label="Appel"><span>Appel</span></label><label class="radio"><input type="radio" name="canal" value="whatsapp" data-label="WhatsApp"><span>WhatsApp</span></label><label class="radio"><input type="radio" name="canal" value="email" data-label="E-mail"><span>E-mail</span></label></fieldset>
+<div class="grid2">
+<div class="field"><label for="f-email">E-mail <span class="opt">(facultatif)</span></label><input class="input" id="f-email" name="email" type="email" autocomplete="email" placeholder="nom@entreprise.cm" aria-describedby="f-email-e"><span class="err" id="f-email-e" hidden></span></div>
+<div class="field"><label for="f-city">Ville principale <span class="opt">(facultatif)</span></label><input class="input" id="f-city" name="city" autocomplete="address-level2" placeholder="Douala, Yaoundé…"></div>
+<div class="field"><label for="f-role">Votre fonction <span class="opt">(facultatif)</span></label><select class="input" id="f-role" name="role"><option value="">Choisir…</option><option>Propriétaire / Direction</option><option>Exploitation</option><option>Finance</option><option>Ventes / Agences</option><option>Autre</option></select></div>
+<div class="field"><label for="f-fleet">Taille de la flotte <span class="opt">(facultatif)</span></label><select class="input" id="f-fleet" name="fleet"><option value="">Choisir…</option><option>1–10 bus</option><option>11–30 bus</option><option>31–80 bus</option><option>Plus de 80 bus</option></select></div></div>
+<div class="field"><label for="f-msg">Que souhaitez-vous voir ? <span class="opt">(facultatif)</span></label><textarea class="input" id="f-msg" name="message"></textarea></div>
+<div class="check"><input type="checkbox" id="f-consent" name="consent" aria-describedby="f-consent-e"><div><label for="f-consent">J’accepte d’être contacté au sujet de ZMOOV.</label> <a href="confidentialite.html">Politique de confidentialité</a><p class="err" id="f-consent-e" hidden>Merci d’accepter d’être contacté.</p></div></div>
+<div class="form-foot"><button class="btn btn--lime" id="demo-send" type="submit">Demander ma démo</button><span class="tag tag--planned">Prototype</span></div>
+</form>
+<div class="ok" id="demo-ok" role="status" hidden><span class="tag tag--planned">Prototype</span><span class="ok-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><h2 class="h3" id="ok-title" tabindex="-1"></h2>
+<div style="display:grid;gap:12px"><p class="h4" style="font-size:17px">Ce qui va se passer</p><ol class="next"><li><span class="mini-n" aria-hidden="true">1</span><p id="ok-step1"></p></li>
+<li><span class="mini-n" aria-hidden="true">2</span><p>Une question d’ici là ? Écrivez-nous sur WhatsApp : [numéro à confirmer].</p></li>
+<li><span class="mini-n" aria-hidden="true">3</span><p>Pendant la démo : 45 minutes sur vos lignes, en français ou en anglais.</p></li></ol></div>
+<div style="display:grid;gap:10px"><p class="eyebrow">Votre demande</p><dl class="recap" id="ok-recap"></dl></div>
+<a class="btn btn--dark" href="solutions.html#journee" style="justify-self:start">En attendant : une journée sur le réseau <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<p class="note">Prototype : rien n’est envoyé. Vos informations sont restées dans ce navigateur.</p>
+<button class="linkbtn" id="ok-edit" type="button">Modifier ma demande</button></div>
+</div></div>
+<div class="more"><div style="display:grid;gap:14px"><h2 class="h4">Ce qui se passe ensuite</h2><ol class="mini-steps"><li><span class="mini-n" aria-hidden="true">1</span><div><p style="font-weight:600">Une démo sur vos lignes</p><p class="muted small">45 minutes, avec vos lignes et la taille de votre flotte.</p></div></li><li><span class="mini-n" aria-hidden="true">2</span><div><p style="font-weight:600">La mise en place</p><p class="muted small">Nous configurons vos lignes, vos guichets et vos agents. [Délai et modalités à confirmer]</p></div></li><li><span class="mini-n" aria-hidden="true">3</span><div><p style="font-weight:600">Vous vendez et suivez chaque départ</p><p class="muted small">Chaque départ et chaque caisse remontent sur votre écran.</p></div></li></ol></div>
+<div style="display:grid;gap:14px"><h2 class="h4">Questions fréquentes</h2><div class="faq"><details><summary>Faut-il du nouveau matériel ?</summary><p class="faq-a">Non. Les guichets utilisent un ordinateur ou une tablette Android avec une imprimante de tickets ; les agents utilisent leur téléphone Android.</p></details><details><summary>Les passagers peuvent-ils payer en Mobile Money ?</summary><p class="faq-a">Bientôt, réseau par réseau. Le paiement en ligne s’ouvrira avec MTN Mobile Money et Orange Money ; l’argent arrivera sur le compte de votre compagnie, jamais sur celui de ZMOOV.</p></details><details><summary>Combien coûte ZMOOV ?</summary><p class="faq-a">Standard à 0 FCFA par mois, Professionnel à 50 000 FCFA par mois, Enterprise sur devis, plus 10 % de commission sur les ventes en ligne et par les agents. Aucune commission au guichet. Tarifs indicatifs.</p></details></div></div>
+<figure class="owner-ph"><img class="" src="img/proprietaire.webp" width="760" height="1008" alt="Un dirigeant de compagnie de transport regarde son dépôt de cars depuis son bureau." loading="lazy" decoding="async"></figure></div>
+</div></main>
+<div class="ftr-wrap"><footer class="ftr dark">
+<div class="ftr-top"><div class="ftr-brand" style="display:grid;gap:14px;align-content:start"><a class="logo" href="index.html"><svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="9" fill="#C9FF5F"/><path d="M8.5 9.5h13l-13 11h13" fill="none" stroke="#0B0D0F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.2 15h5.6" stroke="#0B0D0F" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.6 2.4"/></svg><span>ZMOOV</span></a><p style="color:var(--soft);max-width:30ch">Le système d’exploitation du transport en Afrique.</p></div><nav aria-labelledby="f-plat"><h2 id="f-plat">Plateforme</h2><ul><li><a href="plateforme.html">ZMOOV OS</a></li><li><a href="integrations.html">Intégrations</a></li><li><a href="index.html#canaux">Réseau ZMOOV</a></li><li><a href="tarifs.html">Tarifs</a></li></ul></nav><nav aria-labelledby="f-sol"><h2 id="f-sol">Solutions</h2><ul><li><a href="solutions.html#proprietaires">Pour les propriétaires</a></li><li><a href="solutions.html#exploitation">Pour l’exploitation</a></li><li><a href="solutions.html#agents-de-vente">Pour les agents de vente</a></li><li><a href="solutions.html#journee">Une journée sur le réseau</a></li></ul></nav><nav aria-labelledby="f-res"><h2 id="f-res">Ressources</h2><ul><li><a href="ressources.html#faq">Questions fréquentes</a></li><li><a href="ressources.html#guides">Guides transporteurs</a></li><li><button type="button" data-wa>Poser votre question</button></li></ul></nav><nav aria-labelledby="f-co"><h2 id="f-co">Entreprise</h2><ul><li><a href="entreprise.html">À propos de ZMOOV</a></li><li><a href="entreprise.html#partenaire">Devenir partenaire</a></li><li><a href="entreprise.html#contact">Contact</a></li></ul></nav></div>
+<p class="ftr-word" aria-hidden="true">ZMOOV</p>
+<div class="ftr-bottom"><span>© 2026 Zentra Technology. Première version du site, en revue.</span>
+<div class="ftr-legal"><a href="confidentialite.html">Confidentialité</a><a href="confidentialite.html#mentions-legales">Mentions légales</a></div>
+<span class="proto-mark">Prototype · aucune donnée réelle</span></div>
+</footer></div>
+
+<button class="totop" id="totop" type="button" aria-label="Haut de page" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<div class="mmenu" id="mmenu" hidden><div class="mmenu-panel" role="dialog" aria-modal="true" aria-label="Menu">
+<div class="mmenu-top"><a class="logo" href="index.html"><svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="9" fill="#C9FF5F"/><path d="M8.5 9.5h13l-13 11h13" fill="none" stroke="#0B0D0F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.2 15h5.6" stroke="#0B0D0F" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.6 2.4"/></svg><span>ZMOOV</span></a><button class="burger" type="button" data-menu-close aria-label="Fermer le menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<nav aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="plateforme.html">Plateforme</a><a href="solutions.html">Solutions</a><a href="tarifs.html">Tarifs</a><a href="ressources.html">Ressources</a><a href="entreprise.html">Entreprise</a></nav>
+<div class="mmenu-foot"><div class="lang" role="group" aria-label="Langue"><a href="en/demo.html" hreflang="en" lang="en">EN</a><a href="demo.html" hreflang="fr" lang="fr" aria-current="true">FR</a></div><a class="btn btn--lime" href="demo.html">Demander une démo</a></div>
+</div></div>
+<div class="dlg-back" id="wa-dlg" hidden><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="wa-t">
+<div class="dlg-head"><div style="display:grid;gap:6px"><span class="tag tag--planned">Prototype</span><h2 id="wa-t" class="h4" style="font-size:24px">Être rappelé sur WhatsApp</h2></div><button class="icon-btn" type="button" data-wa-close aria-label="Fermer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<form class="form" id="wa-form" novalidate>
+<p class="muted">Laissez votre nom et votre numéro : nous vous écrivons sur WhatsApp pour répondre à vos questions ou fixer une démo.</p>
+<div class="field"><label for="wa-n">Votre nom <span class="req" aria-hidden="true">*</span></label><input class="input" id="wa-n" autocomplete="name" required aria-describedby="wa-n-e"><span class="err" id="wa-n-e" hidden>Indiquez votre nom.</span></div>
+<div class="field"><label for="wa-p">Numéro WhatsApp <span class="req" aria-hidden="true">*</span></label><input class="input" id="wa-p" type="tel" inputmode="tel" autocomplete="tel" placeholder="+237 6XX XX XX XX" required aria-describedby="wa-p-e"><span class="err" id="wa-p-e" hidden>Saisissez un numéro d’au moins 9 chiffres.</span></div>
+<button class="btn btn--dark" type="submit">Être rappelé</button>
+<p class="hint">Vous pouvez aussi nous écrire directement : [numéro WhatsApp à confirmer].</p>
+</form>
+<div id="wa-done" role="status" style="display:grid;gap:14px" hidden>
+<p class="h4">C’est noté.</p>
+<p>Nous vous écrirons sur WhatsApp sous [délai à confirmer], depuis le [numéro WhatsApp à confirmer].</p>
+<p class="note">Prototype : rien n’est envoyé. Vos informations restent dans ce navigateur.</p>
+<button class="btn btn--outline" type="button" data-wa-close>Fermer</button>
+</div>
+</div></div>
+<script type="application/json" id="zm-i18n">{"shown": "intégrations affichées", "required": "Ce champ est obligatoire.", "phone": "Saisissez un numéro d’au moins 9 chiffres.", "email": "Saisissez un e-mail valide, par exemple nom@entreprise.cm.", "consent": "Merci d’accepter d’être contacté.", "lName": "Nom complet", "lPhone": "Téléphone", "lCompany": "Entreprise de transport", "lEmail": "E-mail", "lConsent": "Consentement", "errOne": "1 champ à corriger :", "errMany": " champs à corriger :", "sending": "Envoi…", "submit": "Demander ma démo", "okTitle": "Demande reçue. Merci, ", "s1Call": "Nous vous appelons sous [délai à confirmer] au ", "s1Wa": "Nous vous écrivons sur WhatsApp sous [délai à confirmer] au ", "s1Mail": "Nous vous écrivons sous [délai à confirmer] à ", "kName": "Nom", "kPhone": "Téléphone", "kCompany": "Entreprise", "kChannel": "Recontact", "kEmail": "E-mail", "kCity": "Ville", "kRole": "Fonction", "kFleet": "Flotte"}</script>
+<script src="assets/zmoov.js"></script>
+</body>
+</html>
